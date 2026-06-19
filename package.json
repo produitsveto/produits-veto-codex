@@ -1,0 +1,13 @@
+{
+  "name": "produits-veto-home",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Prototype statique de la home Produits-veto.com, pret pour branchement Strapi, Medusa et Cloudflare Workers.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "python -m http.server 4173"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
